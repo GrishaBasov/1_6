@@ -7,4 +7,10 @@
   cursor: pointer;
   transform: translateY(66px);
   border:none;
+  border-radius: 30px;
+
+  &:hover {
+    box-shadow: 0 0 0.75rem crimson;
+    transition-duration: 0.6s;
+  }
 }

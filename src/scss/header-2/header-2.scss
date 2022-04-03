@@ -8,6 +8,7 @@
 
   .header-2__btn-repair-2 {
       width:40px;
+      position: relative;
       height:40px;
       border:none;
       cursor:pointer;
@@ -27,8 +28,9 @@
       content:"Оставить заявку";
       font-family: TT Lakes, serif;
       font-size: 16px;
-      right: 300px;
-      top:32px;
+      right: 50px;
+      white-space: nowrap;
+      top:9px;
     }
   }
 
@@ -36,6 +38,7 @@
 
   .header-2__btn-checkstatus-2 {
     width:40px;
+    position: relative;
     height:40px;
     border:none;
     cursor:pointer;
@@ -55,8 +58,9 @@
       content: "Статус ремонта";
       font-family: TT Lakes, serif;
       font-size: 16px;
-      right:110px;
-      top:32px;
+      right: 50px;
+      white-space: nowrap;
+      top:9px;
     }
   }
   }
